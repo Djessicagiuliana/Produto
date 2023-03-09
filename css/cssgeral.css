@@ -1,0 +1,387 @@
+        .hide-scrollbar
+        {
+            overflow: auto;
+            -ms-overflow-style: none; /* IE 11 */
+            scrollbar-width: none; /* Firefox 64 */
+        }
+        ::-webkit-scrollbar 
+        {
+            display:none;
+        }
+        body, html
+        {
+            scrollbar-width: none; /* Firefox 64 */
+            font-family: 'Roboto Condensed', sans-serif;
+    
+
+        }  
+           
+/* botão enviar formulario*/
+        #envform{
+            margin-left: 5px;
+            font-weight:700;
+            text-transform: uppercase;
+            border:none;
+            padding:5px 15px 5px 15px;
+            cursor: pointer;
+            display:inline-block;
+            text-decoration: none;
+            background:#970000;
+            color:#fff;
+            box-shadow: -5px -5px 0 #4e0101;
+        }  
+        #envform:hover
+        { 
+            background:#db991f;
+            box-shadow:-5px -5px 0 #b96516;
+            color: rgb(255, 255, 255);
+        }
+        #envform:active
+        {   
+            box-shadow:none;
+            position:relative;
+            top:-5px;
+            left:-5px;
+        }
+
+/* formulario*/
+        #formulario
+        {
+            margin-bottom: 4rem;
+        }
+        .form-group
+        {
+            margin: 1rem 1rem;
+        }
+        #card_legend
+        {
+            line-height: 1.4; margin:1rem; 
+            color: rgb(56, 56, 56);
+            font-size: 30px;
+            font-weight: 800;
+        }
+
+
+/*botão link*/
+        #linkclique
+        {
+            color: rgb(173, 0, 0);
+            font-size: 25px;
+            text-decoration-line: none;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+        #linkclique:hover
+        { 
+            background:rgb(219, 153, 31);
+            box-shadow:0 5px 5px #4d4d4dcc;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 10px;    
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+        .row.align-items-center.featurette
+        {
+            width: 100%;
+        }
+
+/* MARKETING CONTENT */
+        .marketing .col-lg-4 
+        {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .marketing h2 
+        {
+            font-weight: 400;
+        }
+/* rtl:begin:ignore */
+        .marketing .col-lg-4 
+        {
+            margin-right: .75rem;
+            margin-left: .75rem;
+        } 
+/* rtl:end:ignore */
+/*recurso */ 
+        .featurette-heading 
+        {
+            vertical-align: middle;
+            color: white;
+            font-weight: 300;
+            line-height: 1;
+/* rtl:remove */
+            letter-spacing: -.05rem;
+        }
+
+/*recurso premios */
+        #recurso_premios
+        {
+            background-image:url(red_line.webp), 
+            linear-gradient(46deg, rgba(0, 0, 0, 0.188) 39%, rgba(0, 0, 0, 0.5) 14%),
+            linear-gradient(154deg, rgba(77, 74, 74, 0.122) 58%, rgba(0, 0, 0, 0.5) 16%),
+            linear-gradient(173deg, rgba(17, 17, 17, 0.723) 56%, rgba(24, 24, 24, 0.5) 72%),
+            linear-gradient(43deg, rgba(17, 17, 17, 0.84) 16%, rgba(54, 50, 50, 0.904) 97%); 
+            background-blend-mode: normal, multiply,normal,screen,lighten;
+            background-repeat: no-repeat;
+            background-size: inherit;
+            background-position: left 85% top 0%;
+            background-attachment: fixed;
+        }
+        .leady
+        {
+            font-size: 20px;
+            font-weight: 600;
+        }
+/* RESPONSIVE CSS*/
+        @media (min-width: 40em) 
+        {
+/* Bump up size of carousel content */
+           .featurette-heading 
+           {
+            font-size: 50px;
+           }
+        }
+
+
+/* botão banner nutripremios*/
+        .hvr-grow 
+        { 
+            text-shadow: 0.1em 0.1em 2px rgb(0, 0, 0);
+            text-decoration: none;
+            color: rgb(250, 23, 23);
+            font-size: 25px;
+            width: 8em;
+            height: 2em;
+            border: 0.09em solid;
+            text-align: center;
+            vertical-align: middle;
+            display: inline-block;
+            vertical-align: middle;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        }
+        .hvr-grow:hover, .hvr-grow:focus
+        {
+            color: orange;
+        }
+
+/*rodape*/
+        #myFooter
+        {
+            background-color:rgb(29, 28, 28);
+            color: rgb(51, 26, 192);
+            padding-top: 25px;
+        }
+        #myFooter .footer-copyright 
+        {
+            background-color:rgb(41, 40, 40);
+            padding-top: 1px;
+            padding-bottom: 3px;
+            text-align: center;
+            font-size: small;
+        }
+        #myFooter .row 
+        {
+            margin-bottom: 30px;
+        }
+        #myFooter .navbar-brand 
+        {
+            margin-top: 45px;
+            height: 65px;
+        }
+        #myFooter .footer-copyright p 
+        {
+            margin: 5px;
+            color: rgb(255, 255, 255);
+        }
+        #myFooter ul 
+        {
+            list-style-type: none;
+            padding-left: 0;
+            line-height: 1.7;
+        }
+        #myFooter h5 
+        {
+            font-size: 25px;
+            color: rgb(139, 139, 139);
+            font-weight: bold;
+            margin-top: 30px;
+        }
+        #myFooter h2 a
+        {
+            font-size: 50px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+        #myFooter a 
+        {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        #myFooter a:hover, #myFooter a:focus 
+        {
+            text-decoration: none;
+            color: #db991f;
+        }  
+        #myFooter .btn 
+        {
+            color: rgb(0, 0, 0);
+            background-color:#0000FF;
+            border-radius: 50px;
+            border: none;
+            width: 40px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+            line-height: 28px;
+        }
+        @media screen and (max-width: 767px) 
+        {
+            #myFooter 
+            {
+                text-align: center;
+            }
+        }
+        #myFooter .social-networks 
+        {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 16px;
+        }
+        #myFooter .social-networks a
+        {
+            font-size: 32px;
+            color: #ffffff;
+            padding: 10px;
+            transition: 0.2s;
+        }
+        #myFooter .social-networks a:hover 
+        {
+            text-decoration: none;
+        }
+        #myFooter .facebook:hover 
+        {
+            color: #0077e2;
+        }
+        #myFooter .instagram:hover 
+        {
+            color: purple;
+        }
+
+
+/*cartão nutri animado*/
+        * 
+        {
+	        border: 0;
+	        box-sizing: border-box;
+	        margin: 0;
+	        padding: 0;
+        }
+        #borycard
+        {	
+	        display: grid;
+        	place-items: center;
+            perspective: 600px;
+        }
+        :root 
+        {
+	        --hue: 223;
+	        --bg: hsl(var(--hue),10%,90%);
+	        --fg: hsl(var(--hue),10%,10%);
+	        --primary: hsl(var(--hue),90%,55%);
+        }
+        .card
+        {
+	        overflow: hidden;
+	        position: relative;
+        }
+        .card,.card__texture 
+        {
+	        animation-duration: 3s;
+	        animation-timing-function: ease-in-out;
+	        animation-iteration-count: infinite;
+        }
+        .card 
+        {
+	        animation-name: rotate;
+	        background-color: var(--primary);
+	        background-image: url(card_prem_.webp);
+            background-size: cover;
+	        border-radius: 15px;
+        	box-shadow:
+            0 0 0 hsl(0,0%,80%),
+            0 0 0 hsl(0,0%,100%),
+            -0.2rem 0 0.75rem 0 hsla(0,0%,0%,0.3);
+            color: hsl(0,0%,100%);
+	        width: 354px;
+	        height: 230px;
+	        transform: translate3d(0,0,0);
+        }
+        .card__texture 
+        {
+	        position: absolute;
+	        animation-name: texture;
+        	top: 0;
+        	left: 0;
+	        width: 200%;
+        	height: 100%;
+        	animation-name: texture;
+	        background-image: linear-gradient(-80deg,hsla(0,0%,100%,0.3) 25%,hsla(0,0%,100%,0) 45%);
+        }
+
+/* Dark theme */
+        @media (prefers-color-scheme: dark) 
+        {
+	        :root 
+            {
+		        --bg: hsl(var(--hue),10%,30%);
+		        --fg: hsl(var(--hue),10%,90%);
+	        }
+        }
+
+/* Animation */
+        @keyframes rotate 
+        {
+	        from,
+	        to 
+            {
+		        animation-timing-function: ease-in;
+		        box-shadow:
+                0 0 0 hsl(0,0%,80%),
+                0.1rem 0 0 hsl(0,0%,100%),
+                -0.2rem 0 0.75rem 0 hsla(0,0%,0%,0.450);
+		        transform: rotateY(-10deg);
+	        }
+	        25%,
+	        75% 
+            {
+		        animation-timing-function: ease-out;
+		        box-shadow:
+                0 0 0 hsl(0,0%,80%),
+                0 0 0 hsl(0,0%,100%),
+                -0.25rem -0.05rem 1rem 0.15rem rgba(0, 0, 0, 0.450);
+		        transform: rotateY(0deg);
+	        }
+	        50%
+            {
+		        animation-timing-function: ease-in;
+		        box-shadow:
+                -0.1rem 0 0 hsl(0,0%,80%),
+                0 0 0 hsl(0,0%,100%),
+                -0.3rem -0.1rem 1.5rem 0.3rem hsla(0,0%,0%,0.450);
+		        transform: rotateY(10deg);
+	        }
+        }
+        @keyframes texture 
+        {
+	        from,
+	        to 
+            {
+		        transform: translate3d(0,0,0);
+	        }
+	        50% 
+            {
+		        transform: translate3d(-50%,0,0);
+	        }
+        }
+
